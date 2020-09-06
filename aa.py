@@ -34,9 +34,11 @@ print('값이 3인 데이터 개수 : ', a.count(3))
 a.remove(1)
 print('값이 1인 데이터 삭제 : ', a)
 
+# 리스트에서 특정 값의 원소를 모두 제거하기
 a = [1, 2, 3, 4, 5, 5, 5]
 remove_set = {3, 5}
 
 # remove_list에 포함되지 않은 값만을 저장
 result = [i for i in a if i not in remove_set]
 print(result)
+
