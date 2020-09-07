@@ -41,3 +41,8 @@ a = 10
 
 if 0 <= a and a <= 10:
     print('a는 0 이상 10 이하 입니다,')
+
+score = 85
+
+result = '합격' if score >= 80 else '불합격'
+print(result)
